@@ -1,0 +1,38 @@
+# Local assistant/editor files and generated artifacts
+.agents/
+.codex/
+.vscode/
+.artifact_work/
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.pytest_cache/
+
+# Local credentials and overrides
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+*.pfx
+*.p12
+*_local.json
+
+# Experimental records, participant media, and unpublished results
+/streaming_camera_outputs/
+/robot_experiments/
+/datap/archive/
+/datap/outputs/
+/datap/vlm_review_pages/
+*.log
+*.jsonl
+*.mp4
+*.mov
+*.avi
+*.mkv
+*.wav
+*.npz
+
+# External dataset files
+/charades_meta/
